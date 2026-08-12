@@ -133,7 +133,7 @@ func initDB() {
 			('leg piece', 'Nan/Rice', 300, '焼きたてもちもちのナン', 'https://images.unsplash.com/photo-1626074353765-517a681e40be?w=500'),
 			('SAMOSA', 'Nan/Rice', 500, 'とろーりチーズがたっぷり詰まったナン', 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500'),
 			('モモ (6個)', 'Side', 600, 'ネパール風蒸し餃子特製ソース添え', 'https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500'),
-			('Mango Lassi', 'Drink', 350, '濃厚なマンゴー味のヨーグルトドリンク', 'https://images.unsplash.com/photo-1571006682858-a458b8d29f8f?w=500')`)
+			('Mango Lassi', 'Drink', 350, '濃厚なマンゴー味のヨーグルトドリンク', 'https://www.bing.com/images/search?view=detailV2&ccid=yMJn5PUB&id=A50A0EBA5B7F5D56D87D0BD1AEC13BBC5284AC58&thid=OIP.yMJn5PUBAr--0nr16NQJBQHaGR&mediaurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-psd%2Fsweet-mango-lassi-isolated-transparent-background_1036977-4303.jpg%3Fw%3D2000&exph=1695&expw=2000&q=BACK+ROUND+MANGO+LASSI&FORM=IRPRST&ck=638B1B87F0D414442DEAB823BA772F3F&selectedIndex=0&itb=0&cw=691&ch=293&ajaxhist=0&ajaxserp=0')`)
 	}
 }
 
