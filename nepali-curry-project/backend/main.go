@@ -128,12 +128,12 @@ func initDB() {
 	db.QueryRow("SELECT COUNT(*) FROM menu_items").Scan(&count)
 	if count == 0 {
 		db.Exec(`INSERT INTO menu_items (name, category, price, description, image_url) VALUES 
-			('チキンカレー', 'Curry', 900, 'スパイシーな伝統的ネパールチキンカレー', 'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=500'),
+			('Pannirー', 'Curry', 900, 'スパイシーな伝統的ネパールチキンカレー', 'https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=500'),
 			('マトンカレー', 'Curry', 1050, 'じっくり煮込んだコクのある羊肉カレー', 'https://images.unsplash.com/photo-1545247181-516773cae754?w=500'),
-			('プレーンナン', 'Nan/Rice', 300, '焼きたてもちもちのナン', 'https://images.unsplash.com/photo-1626074353765-517a681e40be?w=500'),
-			('チーズナン', 'Nan/Rice', 500, 'とろーりチーズがたっぷり詰まったナン', 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500'),
+			('leg piece', 'Nan/Rice', 300, '焼きたてもちもちのナン', 'https://images.unsplash.com/photo-1626074353765-517a681e40be?w=500'),
+			('SAMOSA', 'Nan/Rice', 500, 'とろーりチーズがたっぷり詰まったナン', 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500'),
 			('モモ (6個)', 'Side', 600, 'ネパール風蒸し餃子特製ソース添え', 'https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=500'),
-			('マンゴーラッシー', 'Drink', 350, '濃厚なマンゴー味のヨーグルトドリンク', 'https://images.unsplash.com/photo-1571006682858-a458b8d29f8f?w=500')`)
+			('Mango Lassi', 'Drink', 350, '濃厚なマンゴー味のヨーグルトドリンク', 'https://images.unsplash.com/photo-1571006682858-a458b8d29f8f?w=500')`)
 	}
 }
 
